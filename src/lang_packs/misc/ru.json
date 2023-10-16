@@ -1,0 +1,84 @@
+{
+  "L_NAME": "Русский",
+  "L_LOCALIZED_BY": ["cymon4380"],
+
+  "C_INFO_TITLE": "Информация",
+  "M_INFO_BOT_DESC": "**ErisProtect** - Discord-бот с открытым исходным кодом, предназначенный для защиты серверов от повреждения.",
+  "F_INFO_GUILDS_TOTAL": "Всего серверов",
+  "F_INFO_USERS_TOTAL": "Всего пользователей",
+  "F_SHARDS": "Осколки",
+  "F_INFO_YOUR_SHARD": "ID осколка сервера",
+  "F_INFO_AVERAGE_LATENCY": "Средняя задержка",
+
+  "C_LANGUAGE_TITLE": "Язык",
+  "M_LANGUAGE_DESC": "Пожалуйста, выберите язык бота для этого сервера.",
+  "M_LANGUAGE_NOTE": "Язык слэш-команд зависит от языка вашего клиента Discord.",
+  "M_LANGUAGE_CURRENT": "Текущий язык",
+  "M_LANGUAGE_SET": "Язык был установлен на",
+  "M_LANGUAGE_LOCALIZED_BY": "Локализовано",
+
+  "C_WHITELIST_TITLE": "Белый список",
+  "M_WHITELIST_DESC": "Для получения дополнительной информации используйте",
+
+  "C_WHITELIST_INFO_TITLE": "Информация о пользователе из белого списка",
+
+  "ERROR_WHITELIST_ADD_SELF": "Вы не можете добавить в белый список себя.",
+  "ERROR_WHITELIST_ADD_ME": "Вы не можете добавить в белый список меня.",
+  "M_WHITELIST_ADD_CHOOSE_PERMS": "Пожалуйста, укажите права для",
+  "M_WHITELIST_ADD_GRANTED": "Следующие права были выданы",
+
+  "M_WHITELIST_GRANT_ALL": "Все права были выданы",
+
+  "ERROR_WHITELIST_REMOVE_SELF": "Вы не можете удалить себя из белого списка.",
+  "ERROR_WHITELIST_REMOVE_ME": "Вы не можете удалить меня из белого списка.",
+  "ERROR_WHITELIST_REMOVE_NOT_EXISTS": "не находится в белом списке.",
+  "M_WHITELIST_REMOVE": "был убран из белого списка.",
+
+  "C_NUKE_SCORE_TITLE": "Краш-баллы",
+  "M_NUKE_SCORE_THRESHOLD": "Порог срабатывания",
+  "M_NUKE_SCORE_COOLDOWN": "Время сброса",
+  "M_NUKE_SCORE_VALUE": "Значение",
+  "M_NUKE_SCORE_DROPDOWN_DESCRIPTION": "Изменить значение и время сброса для",
+  "M_NUKE_SCORE_SET_THRESHOLD": "Установить порог срабатывания",
+  "M_NUKE_SCORE_CHANGE_VALUES": "Изменить значения",
+  "ERROR_NUKE_SCORE_INVALID_INTEGER": "Пожалуйста, укажите целое число.",
+
+  "MS": "мс",
+  "S": "с",
+
+  "F_PERM_CREATE_CHANNELS": "Создание каналов",
+  "F_PERM_EDIT_CHANNELS": "Изменение каналов",
+  "F_PERM_DELETE_CHANNELS": "Удаление каналов",
+
+  "F_PERM_CREATE_ROLES": "Создание ролей",
+  "F_PERM_EDIT_ROLES": "Изменение ролей",
+  "F_PERM_DELETE_ROLES": "Удаление ролей",
+
+  "F_PERM_CREATE_WEBHOOKS": "Создание вебхуков",
+  "F_PERM_EDIT_WEBHOOKS": "Изменение вебхуков",
+  "F_PERM_DELETE_WEBHOOKS": "Удаление вебхуков",
+
+  "F_PERM_EDIT_SERVER": "Изменение сервера",
+
+  "F_PERM_KICK_MEMBERS": "Кик участников",
+  "F_PERM_BAN_MEMBERS": "Бан участников",
+  "F_PERM_TIMEOUT_MEMBERS": "Таймаут участников",
+
+  "M_ERROR": "Ошибка",
+  "M_DONE": "Готово",
+  "M_WARNING": "Внимание",
+  "M_LIST_EMPTY": "Здесь ничего нет.",
+  "M_CANCELED": "Отменено",
+  "M_ERROR_NOT_SERVER_OWNER": "Только владелец сервера может использовать эту команду.",
+  "M_ERROR_USER_OR_ID": "Пожалуйста, укажите пользователя либо его ID.",
+  "M_ERROR_INVALID_ID": "Пожалуйста, укажите действительный ID.",
+  "M_ANTINUKE": "Защита от краша",
+
+  "F_PAGINATOR_PAGE": "Страница",
+  "F_PERMISSIONS": "Права",
+  "F_USER": "Пользователь",
+
+  "A_CONFIRM": "Подтвердить",
+  "A_SAVE": "Сохранить",
+  "A_CANCEL": "Отменить"
+}

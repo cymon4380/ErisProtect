@@ -1,0 +1,84 @@
+{
+  "L_NAME": "English",
+  "L_LOCALIZED_BY": ["cymon4380"],
+
+  "C_INFO_TITLE": "Information",
+  "M_INFO_BOT_DESC": "**ErisProtect** is an open source Discord bot designed to protect servers from damage.",
+  "F_INFO_GUILDS_TOTAL": "Total servers",
+  "F_INFO_USERS_TOTAL": "Total users",
+  "F_SHARDS": "Shards",
+  "F_INFO_YOUR_SHARD": "Server shard ID",
+  "F_INFO_AVERAGE_LATENCY": "Average latency",
+
+  "C_LANGUAGE_TITLE": "Language",
+  "M_LANGUAGE_DESC": "Please select the bot language for this server.",
+  "M_LANGUAGE_NOTE": "The language of the slash commands depends on the language of your Discord client.",
+  "M_LANGUAGE_CURRENT": "Current language",
+  "M_LANGUAGE_SET": "The language has been set to",
+  "M_LANGUAGE_LOCALIZED_BY": "Localized by",
+
+  "C_WHITELIST_TITLE": "Whitelist",
+  "M_WHITELIST_DESC": "For more information use",
+
+  "C_WHITELIST_INFO_TITLE": "Whitelist information",
+
+  "ERROR_WHITELIST_ADD_SELF": "You cannot whitelist yourself.",
+  "ERROR_WHITELIST_ADD_ME": "You cannot whitelist me.",
+  "M_WHITELIST_ADD_CHOOSE_PERMS": "Please set permissions for",
+  "M_WHITELIST_ADD_GRANTED": "The following permissions have been granted to",
+
+  "M_WHITELIST_GRANT_ALL": "All permissions have been granted to",
+
+  "ERROR_WHITELIST_REMOVE_SELF": "You cannot remove yourself from the whitelist.",
+  "ERROR_WHITELIST_REMOVE_ME": "You cannot remove me from the whitelist.",
+  "ERROR_WHITELIST_REMOVE_NOT_EXISTS": "is not whitelisted.",
+  "M_WHITELIST_REMOVE": "has been removed from the whitelist.",
+
+  "C_NUKE_SCORE_TITLE": "Nuke scores",
+  "M_NUKE_SCORE_THRESHOLD": "Threshold",
+  "M_NUKE_SCORE_COOLDOWN": "Cooldown",
+  "M_NUKE_SCORE_VALUE": "Value",
+  "M_NUKE_SCORE_DROPDOWN_DESCRIPTION": "Change value and cooldown for",
+  "M_NUKE_SCORE_SET_THRESHOLD": "Set threshold",
+  "M_NUKE_SCORE_CHANGE_VALUES": "Change values",
+  "ERROR_NUKE_SCORE_INVALID_INTEGER": "Please specify a valid integer.",
+
+  "MS": "ms",
+  "S": "s",
+
+  "F_PERM_CREATE_CHANNELS": "Create channels",
+  "F_PERM_EDIT_CHANNELS": "Edit channels",
+  "F_PERM_DELETE_CHANNELS": "Delete channels",
+
+  "F_PERM_CREATE_ROLES": "Create roles",
+  "F_PERM_EDIT_ROLES": "Edit roles",
+  "F_PERM_DELETE_ROLES": "Delete roles",
+
+  "F_PERM_CREATE_WEBHOOKS": "Create webhooks",
+  "F_PERM_EDIT_WEBHOOKS": "Edit webhooks",
+  "F_PERM_DELETE_WEBHOOKS": "Delete webhooks",
+
+  "F_PERM_EDIT_SERVER": "Edit server",
+
+  "F_PERM_KICK_MEMBERS": "Kick members",
+  "F_PERM_BAN_MEMBERS": "Ban members",
+  "F_PERM_TIMEOUT_MEMBERS": "Timeout members",
+
+  "M_ERROR": "Error",
+  "M_DONE": "Done",
+  "M_WARNING": "Warning",
+  "M_LIST_EMPTY": "Nothing to see here.",
+  "M_CANCELED": "Canceled",
+  "M_ERROR_NOT_SERVER_OWNER": "Only server owner is allowed to execute this command.",
+  "M_ERROR_USER_OR_ID": "Please specify either user or their ID.",
+  "M_ERROR_INVALID_ID": "Please specify valid ID.",
+  "M_ANTINUKE": "Anti-nuke",
+
+  "F_PAGINATOR_PAGE": "Page",
+  "F_PERMISSIONS": "Permissions",
+  "F_USER": "User",
+
+  "A_CONFIRM": "Confirm",
+  "A_SAVE": "Save",
+  "A_CANCEL": "Cancel"
+}

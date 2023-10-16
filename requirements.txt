@@ -1,0 +1,4 @@
+disnake
+asyncio
+pymongo
+dnspython

@@ -1,0 +1,38 @@
+{
+  "CMD_LANGUAGE_DESCRIPTION": "Изменить язык бота",
+
+  "CMD_NUKE_SCORE_DESCRIPTION": "Управлять краш-баллами за каждое действие",
+
+  "CMD_INFO_DESCRIPTION": "Информация о боте",
+
+  "CMD_COG_DESCRIPTION": "Загрузить, разгрузить или перезагрузить ког",
+  "COG_COG": "ког",
+  "COG_COG_DESCRIPTION": "Управляемый ког",
+  "COG_ACTION": "действие",
+  "COG_ACTION_DESCRIPTION": "Действие с когом",
+  "COG_OPTION_LOAD": "загрузить",
+  "COG_OPTION_RELOAD": "перезагрузить",
+  "COG_OPTION_UNLOAD": "разгрузить",
+
+  "CMD_WHITELIST_LIST_DESCRIPTION": "Список пользователей в белом списке",
+
+  "CMD_WHITELIST_INFO_DESCRIPTION": "Получить дополнительную информацию о пользователе из белого списка",
+  "WHITELIST_INFO_USER": "пользователь",
+  "WHITELIST_INFO_USER_DESCRIPTION": "Пользователь из белого списка",
+  "WHITELIST_INFO_USER_ID": "ID пользователя",
+  "WHITELIST_INFO_USER_ID_DESCRIPTION": "ID пользователя из белого списка",
+
+  "CMD_WHITELIST_ADD_DESCRIPTION": "Добавить/редактировать пользователя в белый список",
+  "WHITELIST_ADD_USER": "пользователь",
+  "WHITELIST_ADD_USER_DESCRIPTION": "Пользователь для изменения его прав",
+
+  "CMD_WHITELIST_GRANT_ALL_DESCRIPTION": "Выдать все права пользователю (ОПАСНО)",
+  "WHITELIST_GRANT_ALL_USER": "пользователь",
+  "WHITELIST_GRANT_ALL_USER_DESCRIPTION": "Пользователь для выдачи всех прав",
+
+  "CMD_WHITELIST_REMOVE_DESCRIPTION": "Удалить пользователя из белого списка",
+  "WHITELIST_REMOVE_USER": "пользователь",
+  "WHITELIST_REMOVE_USER_DESCRIPTION": "Пользователь для удаления из белого списка",
+  "WHITELIST_REMOVE_USER_ID": "ID пользователя",
+  "WHITELIST_REMOVE_USER_ID_DESCRIPTION": "ID пользователя для удаления из белого списка"
+}
