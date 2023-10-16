@@ -1,4 +1,4 @@
-[![ErisProtect Banner](https://raw.githubusercontent.com/cymon4380/ErisProtect/master/assets/images/banner.png)](https://discord.gg/EmpnUU5EE7)
+[![ErisProtect Banner](https://raw.githubusercontent.com/cymon4380/ErisProtect/master/assets/img/banner.png)](https://discord.gg/EmpnUU5EE7)
 
 <p align="center">
     <a href="https://discord.gg/EmpnUU5EE7"><img src="https://img.shields.io/discord/1136258983565480067?style=flat-square&color=5865f2&logo=discord&logoColor=ffffff&label=discord" alt="Discord server invite" /></a>
