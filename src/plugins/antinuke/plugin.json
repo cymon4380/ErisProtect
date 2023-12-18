@@ -1,0 +1,5 @@
+{
+  "NAME": "Anti-nuke",
+  "DESCRIPTION": "Helps with server protection from nuking",
+  "ENABLED_BY_DEFAULT": true
+}

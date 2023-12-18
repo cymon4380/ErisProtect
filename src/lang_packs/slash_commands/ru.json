@@ -34,5 +34,7 @@
   "WHITELIST_REMOVE_USER": "пользователь",
   "WHITELIST_REMOVE_USER_DESCRIPTION": "Пользователь для удаления из белого списка",
   "WHITELIST_REMOVE_USER_ID": "ID пользователя",
-  "WHITELIST_REMOVE_USER_ID_DESCRIPTION": "ID пользователя для удаления из белого списка"
+  "WHITELIST_REMOVE_USER_ID_DESCRIPTION": "ID пользователя для удаления из белого списка",
+
+  "CMD_PLUGINS": "Управление плагинами"
 }

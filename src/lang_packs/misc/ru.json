@@ -43,6 +43,18 @@
   "M_NUKE_SCORE_CHANGE_VALUES": "Изменить значения",
   "ERROR_NUKE_SCORE_INVALID_INTEGER": "Пожалуйста, укажите целое число.",
 
+  "C_PLUGIN_LIST_TITLE": "Плагины",
+  "M_PLUGIN_LIST_TOTAL_PLUGINS": "Всего плагинов",
+  "M_PLUGIN_LIST_ENABLED_PLUGINS": "Включённые плагины",
+  "M_PLUGIN_LIST_DISABLED_PLUGINS": "Отключённые плагины",
+  "D_PLUGIN_LIST_CHOOSE": "Выберите плагин...",
+
+  "C_PLUGIN_MANAGER_TITLE": "Управление плагином",
+  "M_PLUGIN_MANAGER_RELOADED": "Плагин был перезагружен.",
+  "M_PLUGIN_MANAGER_ENABLED": "Сейчас включён",
+  "M_PLUGIN_MANAGER_DISABLED": "Сейчас отключён",
+  "A_PLUGIN_MANAGER_BACK": "Назад к списку плагинов",
+
   "MS": "мс",
   "S": "с",
 
@@ -73,6 +85,10 @@
   "M_ERROR_USER_OR_ID": "Пожалуйста, укажите пользователя либо его ID.",
   "M_ERROR_INVALID_ID": "Пожалуйста, укажите действительный ID.",
   "M_ANTINUKE": "Защита от краша",
+  "M_ENABLED": "Включён",
+  "M_DISABLED": "Отключён",
+  "M_NO_DESCRIPTION": "Без описания",
+  "M_DESCRIPTION": "Описание",
 
   "F_PAGINATOR_PAGE": "Страница",
   "F_PERMISSIONS": "Права",
@@ -80,5 +96,8 @@
 
   "A_CONFIRM": "Подтвердить",
   "A_SAVE": "Сохранить",
-  "A_CANCEL": "Отменить"
+  "A_CANCEL": "Отменить",
+  "A_ENABLE": "Включить",
+  "A_DISABLE": "Отключить",
+  "A_RELOAD": "Перезагрузить"
 }

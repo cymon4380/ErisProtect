@@ -20,15 +20,14 @@ class ErisProtectBot(commands.AutoShardedInteractionBot):
 
         super().__init__(shard_count=shard_count, intents=intents)
 
-        self.load_extensions(os.path.join(os.getcwd(), 'cogs', 'commands'))
-        self.load_extensions(os.path.join(os.getcwd(), 'cogs', 'commands', 'settings'))
-        self.load_extensions(os.path.join(os.getcwd(), 'cogs', 'listeners'))
+        for address, dirs, files in os.walk(os.path.join(os.getcwd(), 'cogs')):
+            self.load_extensions(address)
 
         self.i18n.load(os.path.join(os.getcwd(), 'lang_packs', 'slash_commands'))
 
         self.antinuke_entries = {}
         self.antinuke_guild_actions = {}
-        self.ignored_guilds = {}    # If the bot can't punish the user
+        self.ignored_guilds = {}    # If the bot can't punish a user
 
     async def on_ready(self):
         logging.info(f'Logged in as {self.user} (ID: {self.user.id})')

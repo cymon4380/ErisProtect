@@ -43,6 +43,18 @@
   "M_NUKE_SCORE_CHANGE_VALUES": "Change values",
   "ERROR_NUKE_SCORE_INVALID_INTEGER": "Please specify a valid integer.",
 
+  "C_PLUGIN_LIST_TITLE": "Plugins",
+  "M_PLUGIN_LIST_TOTAL_PLUGINS": "Total plugins",
+  "M_PLUGIN_LIST_ENABLED_PLUGINS": "Enabled plugins",
+  "M_PLUGIN_LIST_DISABLED_PLUGINS": "Disabled plugins",
+  "D_PLUGIN_LIST_CHOOSE": "Choose a plugin...",
+
+  "C_PLUGIN_MANAGER_TITLE": "Manage plugin",
+  "M_PLUGIN_MANAGER_RELOADED": "Plugin has been reloaded.",
+  "M_PLUGIN_MANAGER_ENABLED": "Currently enabled",
+  "M_PLUGIN_MANAGER_DISABLED": "Currently disabled",
+  "A_PLUGIN_MANAGER_BACK": "Back to plugin list",
+
   "MS": "ms",
   "S": "s",
 
@@ -73,6 +85,10 @@
   "M_ERROR_USER_OR_ID": "Please specify either user or their ID.",
   "M_ERROR_INVALID_ID": "Please specify valid ID.",
   "M_ANTINUKE": "Anti-nuke",
+  "M_ENABLED": "Enabled",
+  "M_DISABLED": "Disabled",
+  "M_NO_DESCRIPTION": "No description provided",
+  "M_DESCRIPTION": "Description",
 
   "F_PAGINATOR_PAGE": "Page",
   "F_PERMISSIONS": "Permissions",
@@ -80,5 +96,8 @@
 
   "A_CONFIRM": "Confirm",
   "A_SAVE": "Save",
-  "A_CANCEL": "Cancel"
+  "A_CANCEL": "Cancel",
+  "A_ENABLE": "Enable",
+  "A_DISABLE": "Disable",
+  "A_RELOAD": "Reload"
 }

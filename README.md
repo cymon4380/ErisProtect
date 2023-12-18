@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="https://discord.gg/EmpnUU5EE7"><img src="https://img.shields.io/discord/1136258983565480067?style=flat-square&color=5865f2&logo=discord&logoColor=ffffff&label=discord" alt="Discord server invite" /></a>
-    <img src="https://img.shields.io/badge/version-0.1.0-252525?style=flat-square" alt="Version" />
+    <img src="https://img.shields.io/badge/version-0.1.1-252525?style=flat-square" alt="Version" />
     <a href="https://t.me/ErisProtect">
     <img src="https://img.shields.io/badge/Telegram (RU)-2CA5E0?style=flat-square&logo=telegram" alt="Telegram channel invite" />
     </a>
@@ -31,4 +31,4 @@ Your bot must have the **Server Members** and **Message Content** privileged gat
 
 ---
 
-**Keep in mind that no one bot can fully protect your server. They can only help you with protection. You shouldn't add unknown bots to your server and grant dangerous permissions to all members.**
+**Keep in mind that no one bot can fully protect your server. They can only help you with protection. You shouldn't add unknown bots to your server and grant dangerous permissions to unknown members.**
