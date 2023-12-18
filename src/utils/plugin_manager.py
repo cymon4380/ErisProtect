@@ -37,7 +37,6 @@ class Plugin:
                 _path = path.relpath(path.join(address, obj[:-3]), getcwd())
 
                 self.bot.load_extension(_path.replace('/', '.').replace('\\', '.'))
-                print(_path.replace('/', '.').replace('\\', '.'))
 
     def enable(self):
         self.load()
