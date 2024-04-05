@@ -77,7 +77,7 @@ def load_plugins(bot: commands.AutoShardedInteractionBot):
 def get_plugins(bot: commands.AutoShardedInteractionBot) -> list[Plugin]:
     plugins = []
 
-    for address, dirs, files in walk(path.join(getcwd(), 'plugins')):
+    for _, dirs, _ in walk(path.join(getcwd(), 'plugins')):
         for directory in dirs:
             try:
                 plugin = Plugin(bot, directory)
@@ -87,4 +87,4 @@ def get_plugins(bot: commands.AutoShardedInteractionBot) -> list[Plugin]:
             except KeyError:
                 pass
 
-        return plugins
+    return plugins
