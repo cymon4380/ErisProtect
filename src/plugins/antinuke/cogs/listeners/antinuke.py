@@ -148,21 +148,26 @@ class AntiNukeListeners(commands.Cog):
     async def on_webhooks_update(self, channel: disnake.abc.GuildChannel):
         guild = channel.guild
         entry = None
-        async for audit_entry in guild.audit_logs(limit=1):
-            entry = audit_entry
+        async for audit_entry in guild.audit_logs(limit=10):
+            if audit_entry.action in [
+                disnake.AuditLogAction.webhook_create,
+                disnake.AuditLogAction.webhook_update,
+                disnake.AuditLogAction.webhook_delete
+            ]:
+                entry = audit_entry
+                break
 
         if entry is None:
             return
 
         user = entry.user
-        permission = None
 
         match entry.action:
             case disnake.AuditLogAction.webhook_create:
                 permission = AntiNukePermission.CreateWebhooks
             case disnake.AuditLogAction.webhook_update:
                 permission = AntiNukePermission.EditWebhooks
-            case disnake.AuditLogAction.webhook_delete:
+            case _:
                 permission = AntiNukePermission.DeleteWebhooks
 
         if AntiNukePermissions.from_database(user.id, guild).has_permissions(permission):
