@@ -2,3 +2,4 @@ src/venv
 __pycache__
 src/erisprotect.log
 .idea
+src/tests
