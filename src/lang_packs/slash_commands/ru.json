@@ -36,5 +36,54 @@
   "WHITELIST_REMOVE_USER_ID": "ID пользователя",
   "WHITELIST_REMOVE_USER_ID_DESCRIPTION": "ID пользователя для удаления из белого списка",
 
-  "CMD_PLUGINS": "Управление плагинами"
+  "CMD_PLUGINS_DESCRIPTION": "Управление плагинами",
+
+  "C_DURATION": "длительность",
+  "C_DURATION_DESCRIPTION": "Длительность (например 1ч30м)",
+  "C_REASON": "причина",
+  "C_REASON_DESCRIPTION": "Причина",
+  "C_ID_NAME": "ID или имя",
+  "C_ID_NAME_DESCRIPTION": "ID пользователя или его имя (укажите пользователя, его ID либо имя)",
+
+  "CMD_MUTE_DESCRIPTION": "Заглушить участника на сервере",
+  "MUTE_MEMBER": "участник",
+  "MUTE_MEMBER_DESCRIPTION": "Участник, которого нужно заглушить",
+
+  "CMD_MUTE_ROLE_DESCRIPTION": "Указать мьют-роль",
+  "MUTE_ROLE": "роль",
+  "MUTE_ROLE_DESCRIPTION": "Роль",
+
+  "CMD_UNMUTE_DESCRIPTION": "Снять мьют с участника",
+  "UNMUTE_MEMBER": "участник",
+  "UNMUTE_MEMBER_DESCRIPTION": "Участник, с которого нужно снять мьют",
+
+  "CMD_TIMEOUT_DESCRIPTION": "Применить к участнику на сервере тайм-аут",
+  "TIMEOUT_MEMBER": "участник",
+  "TIMEOUT_MEMBER_DESCRIPTION": "Участник, к которому нужно применить тайм-аут",
+
+  "CMD_REMOVE_TIMEOUT_DESCRIPTION": "Снять тайм-аут с участника",
+  "REMOVE_TIMEOUT_MEMBER": "участник",
+  "REMOVE_TIMEOUT_MEMBER_DESCRIPTION": "Участник, с которого нужно снять тайм-аут",
+
+  "CMD_PUNISHMENT_ENTRIES_DESCRIPTION": "Посмотреть все активные наказания",
+  "PUNISHMENT_ENTRIES_TYPE": "тип",
+  "PUNISHMENT_ENTRIES_TYPE_DESCRIPTION": "Тип наказания",
+  "PUNISHMENT_ENTRIES_USER": "пользователь",
+  "PUNISHMENT_ENTRIES_USER_DESCRIPTION": "Фильтровать наказания по этому пользователю (может быть пустым)",
+  "PUNISHMENT_ENTRIES_DESCENDING": "с конца",
+  "PUNISHMENT_ENTRIES_DESCENDING_DESCRIPTION": "Новые наказания показывать первыми",
+
+  "CMD_PUNISHMENT_TASKS_DESCRIPTION": "Посмотреть все задачи на наказание",
+  "PUNISHMENT_TASKS_TYPE": "тип",
+  "PUNISHMENT_TASKS_TYPE_DESCRIPTION": "Тип наказания",
+  "PUNISHMENT_TASKS_DESCENDING": "с конца",
+  "PUNISHMENT_TASKS_DESCENDING_DESCRIPTION": "Новые задачи показывать первыми",
+
+  "CMD_BAN_DESCRIPTION": "Забанить участника на сервере",
+  "BAN_MEMBER": "участник",
+  "BAN_MEMBER_DESCRIPTION": "Участник, которого нужно забанить",
+
+  "CMD_UNBAN_DESCRIPTION": "Разбанить пользователя на сервере",
+  "UNBAN_USER": "пользователь",
+  "UNBAN_USER_DESCRIPTION": "Пользователь, которого нужно разбанить"
 }

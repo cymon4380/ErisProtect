@@ -13,11 +13,16 @@ def is_bot_owner(user: typing.Union[disnake.User, disnake.Member, int]) -> bool:
     return user in config_file.get('OWNER_IDS')
 
 
-async def check_antinuke(guild: disnake.Guild, permission: AntiNukePermission, skip_check: bool = False):
+async def check_antinuke(
+        guild: disnake.Guild,
+        permission: AntiNukePermission,
+        skip_check: bool = False,
+        _user: disnake.User = None
+):
     from models.nuke_score import AntiNukeGuildData, NukeThreshold
     from models.antinuke import AntiNukeEntry, get_last_audit_log_user
 
-    user = await get_last_audit_log_user(guild)
+    user = _user or await get_last_audit_log_user(guild)
     guild_data = AntiNukeGuildData.get(guild)
 
     if not skip_check:

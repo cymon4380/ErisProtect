@@ -55,8 +55,35 @@
   "M_PLUGIN_MANAGER_DISABLED": "Сейчас отключён",
   "A_PLUGIN_MANAGER_BACK": "Назад к списку плагинов",
 
+  "M_SET_MUTE_ROLE_SET": "Мьют-роль была установлена: {{role}}.",
+  "M_SET_MUTE_ROLE_SHOW": "Текущая мьют-роль: {{role}}.",
+  "M_SET_MUTE_ROLE_SHOW_UNASSIGNED": "Мьют-роль не назначена. Она будет создана, когда кто-нибудь будет заглушён.",
+  "ERROR_SET_MUTE_ROLE_TOP": "Моя высшая роль не выше данной роли. Я не смогу её назначить.",
+  "ERROR_SET_MUTE_ROLE_MANAGED": "Эта роль не может быть применена вручную (например: роль бота, роль бустера сервера и т.д.)",
+
+  "M_UNMUTE_UNMUTED": "С `{{member}}` был снят мьют.",
+  "ERROR_UNMUTE_NOT_MUTED": "Этот участник не заглушён.",
+
+  "ERROR_TIMEOUT_INVALID_DURATION": "Длительность должна быть между 1 секундой и 28 днями.",
+
+  "M_REMOVE_TIMEOUT_REMOVED": "Тайм-аут был снят с `{{member}}`.",
+  "ERROR_REMOVE_TIMEOUT": "На этого участника не был применён тайм-аут.",
+
+  "T_PUNISHMENT_ENTRIES": "Активные наказания (`{{current}}/{{total}}`)",
+
+  "T_PUNISHMENT_TASKS": "Задачи на наказание (`{{current}}/{{total}}`)",
+
+  "M_UNBAN_UNBANNED": "`{{user}}` был разбанен.",
+  "ERROR_UNBAN_NOT_BANNED": "Этот пользователь не забанен.",
+
   "MS": "мс",
   "S": "с",
+  "MIN": "мин",
+  "H": "ч",
+  "D": "д",
+  "W": "нед",
+  "MO": "мес",
+  "Y": "г",
 
   "F_PERM_CREATE_CHANNELS": "Создание каналов",
   "F_PERM_EDIT_CHANNELS": "Изменение каналов",
@@ -76,6 +103,14 @@
   "F_PERM_BAN_MEMBERS": "Бан участников",
   "F_PERM_TIMEOUT_MEMBERS": "Таймаут участников",
 
+  "F_PERM_MENTION_EVERYONE": "Упоминание everyone",
+  "F_PERM_MENTION_HERE": "Упоминание here",
+
+  "ERROR_COMMAND_SELF": "Вы не можете использовать эту команду на себе.",
+  "ERROR_COMMAND_ADMINISTRATOR": "Вы не можете использовать эту команду на администраторе.",
+  "ERROR_COMMAND_OWNER": "Вы не можете использовать эту команду на владельце сервера.",
+  "ERROR_COMMAND_ME": "Вы не можете использовать эту команду на мне.",
+
   "M_ERROR": "Ошибка",
   "M_DONE": "Готово",
   "M_WARNING": "Внимание",
@@ -83,21 +118,47 @@
   "M_CANCELED": "Отменено",
   "M_ERROR_NOT_SERVER_OWNER": "Только владелец сервера может использовать эту команду.",
   "M_ERROR_USER_OR_ID": "Пожалуйста, укажите пользователя либо его ID.",
+  "M_ERROR_USER_NAME_OR_ID": "Пожалуйста, укажите пользователя, его имя (не отображаемое имя) либо ID.",
   "M_ERROR_INVALID_ID": "Пожалуйста, укажите действительный ID.",
+  "M_ERROR_USER_NOT_FOUND": "Пользователь не найден.",
+  "M_ERROR_MEMBER_NOT_FOUND": "Участник не найден.",
   "M_ANTINUKE": "Защита от краша",
   "M_ENABLED": "Включён",
   "M_DISABLED": "Отключён",
   "M_NO_DESCRIPTION": "Без описания",
   "M_DESCRIPTION": "Описание",
+  "M_NO_REASON": "Причина не указана",
 
   "F_PAGINATOR_PAGE": "Страница",
   "F_PERMISSIONS": "Права",
   "F_USER": "Пользователь",
+
+  "T_MUTED": "Заглушён",
+  "T_TIMED_OUT": "Обеззвучен",
+  "T_KICKED": "Исключён",
+  "T_BANNED": "Забанен",
+  "F_DURATION": "Длительность",
+  "F_REASON": "Причина",
+  "F_MODERATOR": "Модератор",
+  "F_TYPE": "Тип",
+  "F_CREATED_AT": "Создано",
+
+  "F_MUTE": "Мьют",
+  "F_TIMEOUT": "Тайм-аут",
+  "F_BAN": "Бан",
+
+  "F_PUNISHMENT_ACTIVE_UNTIL": "Наказание активно до",
+
+  "T_TASK_CREATED": "Задача создана",
+  "M_TASK_CREATED_DESCRIPTION": "Мне не удалось найти этого пользователя, поэтому наказание будет применено, как только у меня появятся общие серверы с ним.",
 
   "A_CONFIRM": "Подтвердить",
   "A_SAVE": "Сохранить",
   "A_CANCEL": "Отменить",
   "A_ENABLE": "Включить",
   "A_DISABLE": "Отключить",
-  "A_RELOAD": "Перезагрузить"
+  "A_RELOAD": "Перезагрузить",
+
+  "ERROR_COMMAND_MISSING_PERMS": "У вас нет прав на выполнение данной команды.",
+  "ERROR_COMMAND_ON_COOLDOWN": "Вы слишком часто используете команду. Повторите попытку через {{retry_after}}."
 }

@@ -64,7 +64,7 @@ class AntiNukeEntry:
         self.target = target
         self.data = data
         self.state = state
-        self.expires = expires if expires is not None else time.time() + config_file.get('ENTRY_EXPIRATION_TIME', 600)
+        self.expires = expires or time.time() + config_file.get('ENTRY_EXPIRATION_TIME', 600)
 
     def save(self):
         existing = AntiNukeEntry.get(_id=self.data.id, guild=self.data.guild)
@@ -293,7 +293,10 @@ class AntiNukeEntry:
             )
         elif isinstance(self.data, ExtraObjectData):
             if not isinstance(self.target, disnake.Webhook):
-                await self.target.delete(reason=get_str(self.data.guild, 'M_ANTINUKE'))
+                if isinstance(self.target, disnake.Message):
+                    await self.target.delete()
+                else:
+                    await self.target.delete(reason=get_str(self.data.guild, 'M_ANTINUKE'))
             else:
                 webhook = await self.target.fetch()
                 await webhook.delete(reason=get_str(self.data.guild, 'M_ANTINUKE'))

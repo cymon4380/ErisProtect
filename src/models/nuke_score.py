@@ -78,7 +78,7 @@ class NukeAction:
     ):
         self.guild = guild
         self.type = _type
-        self.created_at = created_at if created_at is not None else time.time()
+        self.created_at = created_at or time.time()
 
     def is_expired(self, delete_if_expired: bool = True) -> bool:
         entry = NukeScoreEntry.from_database(self.type, self.guild)
@@ -95,19 +95,19 @@ class NukeAction:
 class AntiNukeGuildData:
     def __init__(self, guild: disnake.Guild, actions: list[NukeAction] = None):
         self.guild = guild
-        self.actions = actions if actions is not None else []
+        self.actions = actions or []
 
     def save(self):
         from main import bot
 
         bot.antinuke_guild_actions[self.guild.id] = self
 
-    async def add_action(self, _type: AntiNukePermission):
+    async def add_action(self, _type: AntiNukePermission, user: disnake.User = None):
         action = NukeAction(self.guild, _type)
 
         self.actions.append(action)
         self.save()
-        await check_antinuke(self.guild, _type)
+        await check_antinuke(self.guild, _type, _user=user)
 
     def get_score(self, _type: AntiNukePermission) -> int:
         entry = NukeScoreEntry.from_database(_type, self.guild)

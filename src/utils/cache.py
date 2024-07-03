@@ -20,6 +20,18 @@ class Collection:
     def get_document(self, _id, default=None) -> dict:
         return self.data.get(_id, default)
 
+    def find_one(self, projection: dict):
+        for key, data in self.data.items():
+            found = 0
+            for name, value in projection.items():
+                if name not in data.keys():
+                    continue
+                if data.get(name) == value:
+                    found += 1
+
+            if found == len(projection.keys()):
+                return data
+
     def get_value(self, _id, key: str, default=None):
         document = self.get_document(_id)
 

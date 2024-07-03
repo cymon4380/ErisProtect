@@ -1,4 +1,3 @@
-import disnake
 from disnake.ext import commands
 from models.antinuke import *
 from models.bot import ErisProtectBot
@@ -284,6 +283,31 @@ class AntiNukeListeners(commands.Cog):
 
         entry.save()
         await AntiNukeGuildData.get(guild).add_action(permission)
+
+    @commands.Cog.listener()
+    async def on_message(self, message: disnake.Message):
+        if '@everyone' in message.content:
+            permission = AntiNukePermission.MentionEveryone
+        elif '@here' in message.content:
+            permission = AntiNukePermission.MentionHere
+        else:
+            return
+
+        user = message.author
+        guild = message.guild
+        if user.id == self.bot.user.id:
+            return
+
+        if AntiNukePermissions.from_database(user.id, guild).has_permissions(permission):
+            return
+
+        entry = AntiNukeEntry(
+            target=message,
+            data=ExtraObjectData(message.id, guild, message)
+        )
+
+        entry.save()
+        await AntiNukeGuildData.get(guild).add_action(permission, user=user)
 
 
 def setup(_bot):

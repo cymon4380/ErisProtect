@@ -1,0 +1,5 @@
+{
+  "NAME": "Moderation",
+  "DESCRIPTION": "Some moderation commands",
+  "ENABLED_BY_DEFAULT": true
+}

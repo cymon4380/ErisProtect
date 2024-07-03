@@ -54,8 +54,7 @@ class PluginManagerView(disnake.ui.View):
         embed = disnake.Embed()
         embed.title = f"{get_str(self.guild, 'C_PLUGIN_MANAGER_TITLE')}: {self.plugin.name} (`{self.plugin}`)"
         embed.description = f"""
-**{get_str(self.guild, 'M_DESCRIPTION')}:** `{self.plugin.description
-        if self.plugin.description is not None else get_str(self.guild, 'M_NO_DESCRIPTION')}`
+**{get_str(self.guild, 'M_DESCRIPTION')}:** `{self.plugin.description or get_str(self.guild, 'M_NO_DESCRIPTION')}`
 
 {get_str(self.guild, 'M_PLUGIN_MANAGER_ENABLED' if self.plugin.enabled else 'M_PLUGIN_MANAGER_DISABLED')}
 """

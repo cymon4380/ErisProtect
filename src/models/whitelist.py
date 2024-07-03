@@ -23,6 +23,9 @@ class AntiNukePermission(Enum):
     BanMembers = 'ban_members'
     TimeoutMembers = 'timeout_members'
 
+    MentionEveryone = 'mention_everyone'
+    MentionHere = 'mention_here'
+
 
 class AntiNukePermissions:
     def __init__(self, user_id: int, guild: disnake.Guild, permissions: dict[str, bool] = None):

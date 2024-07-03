@@ -15,7 +15,7 @@ def get_guild_language(guild: typing.Union[disnake.Guild, int]) -> str:
     return lang
 
 
-def get_str(guild: typing.Union[disnake.Guild, int], key: str) -> str:
+def get_str(guild: typing.Union[disnake.Guild, int], key: str, **kwargs) -> str:
     lang = get_guild_language(guild)
     key = key.upper()
 
@@ -33,5 +33,8 @@ def get_str(guild: typing.Union[disnake.Guild, int], key: str) -> str:
     if string is None:
         logging.warning(not_localized_warning)
         return not_localized_warning
+
+    for name, value in kwargs.items():
+        string = string.replace('{{' + name + '}}', str(value))
 
     return string

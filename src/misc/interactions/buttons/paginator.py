@@ -65,7 +65,7 @@ class Paginator(disnake.ui.View):
             return [embed]
 
         for chunk in splitted_items:
-            embed = disnake.Embed(title=title, description=description if description is not None else '', color=color)
+            embed = disnake.Embed(title=title, description=description or '', color=color)
             embed.description += '\n' * 2
 
             for item in chunk:

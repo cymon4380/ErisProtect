@@ -55,8 +55,35 @@
   "M_PLUGIN_MANAGER_DISABLED": "Currently disabled",
   "A_PLUGIN_MANAGER_BACK": "Back to plugin list",
 
+  "M_SET_MUTE_ROLE_SET": "Mute role has been set to {{role}}.",
+  "M_SET_MUTE_ROLE_SHOW": "Current mute role: {{role}}.",
+  "M_SET_MUTE_ROLE_SHOW_UNASSIGNED": "There is no mute role assigned. It will be created once someone is muted.",
+  "ERROR_SET_MUTE_ROLE_TOP": "My top role is not upper than this one. I could not assign it.",
+  "ERROR_SET_MUTE_ROLE_MANAGED": "This role cannot be assigned manually (e.g. bot role, server booster role, etc.)",
+
+  "M_UNMUTE_UNMUTED": "`{{member}}` has been unmuted.",
+  "ERROR_UNMUTE_NOT_MUTED": "This member is not muted.",
+
+  "ERROR_TIMEOUT_INVALID_DURATION": "Duration must be between 1 second and 28 days.",
+
+  "M_REMOVE_TIMEOUT_REMOVED": "Timeout has been removed from `{{member}}`.",
+  "ERROR_REMOVE_TIMEOUT": "This member is not timed out.",
+
+  "T_PUNISHMENT_ENTRIES": "Active punishment entries (`{{current}}/{{total}}`)",
+
+  "T_PUNISHMENT_TASKS": "Punishment tasks (`{{current}}/{{total}}`)",
+
+  "M_UNBAN_UNBANNED": "`{{user}}` has been unbanned.",
+  "ERROR_UNBAN_NOT_BANNED": "This user is not banned.",
+
   "MS": "ms",
   "S": "s",
+  "MIN": "min",
+  "H": "h",
+  "D": "d",
+  "W": "w",
+  "MO": "mo",
+  "Y": "y",
 
   "F_PERM_CREATE_CHANNELS": "Create channels",
   "F_PERM_EDIT_CHANNELS": "Edit channels",
@@ -76,6 +103,14 @@
   "F_PERM_BAN_MEMBERS": "Ban members",
   "F_PERM_TIMEOUT_MEMBERS": "Timeout members",
 
+  "F_PERM_MENTION_EVERYONE": "Mention everyone",
+  "F_PERM_MENTION_HERE": "Mention here",
+
+  "ERROR_COMMAND_SELF": "You cannot use this command towards yourself.",
+  "ERROR_COMMAND_ADMINISTRATOR": "You cannot use this command towards administrator.",
+  "ERROR_COMMAND_OWNER": "You cannot use this command towards the server owner.",
+  "ERROR_COMMAND_ME": "You cannot use this command towards me.",
+
   "M_ERROR": "Error",
   "M_DONE": "Done",
   "M_WARNING": "Warning",
@@ -83,21 +118,47 @@
   "M_CANCELED": "Canceled",
   "M_ERROR_NOT_SERVER_OWNER": "Only server owner is allowed to execute this command.",
   "M_ERROR_USER_OR_ID": "Please specify either user or their ID.",
+  "M_ERROR_USER_NAME_OR_ID": "Please specify either user, their name (not display name) or ID.",
   "M_ERROR_INVALID_ID": "Please specify valid ID.",
+  "M_ERROR_USER_NOT_FOUND": "User not found.",
+  "M_ERROR_MEMBER_NOT_FOUND": "Member not found.",
   "M_ANTINUKE": "Anti-nuke",
   "M_ENABLED": "Enabled",
   "M_DISABLED": "Disabled",
   "M_NO_DESCRIPTION": "No description provided",
   "M_DESCRIPTION": "Description",
+  "M_NO_REASON": "No reason provided",
 
   "F_PAGINATOR_PAGE": "Page",
   "F_PERMISSIONS": "Permissions",
   "F_USER": "User",
+
+  "T_MUTED": "Muted",
+  "T_TIMED_OUT": "Timed out",
+  "T_KICKED": "Kicked",
+  "T_BANNED": "Banned",
+  "F_DURATION": "Duration",
+  "F_REASON": "Reason",
+  "F_MODERATOR": "Moderator",
+  "F_TYPE": "Type",
+  "F_CREATED_AT": "Created at",
+
+  "F_MUTE": "Mute",
+  "F_TIMEOUT": "Timeout",
+  "F_BAN": "Ban",
+
+  "F_PUNISHMENT_ACTIVE_UNTIL": "Punishment is active until",
+
+  "T_TASK_CREATED": "Task created",
+  "M_TASK_CREATED_DESCRIPTION": "I could not find this user, so the punishment will be applied once I have mutual servers with them.",
 
   "A_CONFIRM": "Confirm",
   "A_SAVE": "Save",
   "A_CANCEL": "Cancel",
   "A_ENABLE": "Enable",
   "A_DISABLE": "Disable",
-  "A_RELOAD": "Reload"
+  "A_RELOAD": "Reload",
+
+  "ERROR_COMMAND_MISSING_PERMS": "You don't have permission to execute this command.",
+  "ERROR_COMMAND_ON_COOLDOWN": "You are on cooldown. Please try again in {{retry_after}}."
 }
